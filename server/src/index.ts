@@ -169,4 +169,12 @@ void access(distPath).then(() => {
   app.get("*", (_req, res) => res.sendFile(path.join(distPath, "index.html")));
 }).catch(() => undefined);
 
-app.listen(PORT, "0.0.0.0", () => console.log(`Linux ZH API fut: ${publicBaseUrl} (0.0.0.0:${PORT})`));
+const apiServer = app.listen(PORT, "0.0.0.0", () => console.log(`Linux ZH API fut: ${publicBaseUrl} (0.0.0.0:${PORT})`));
+apiServer.on("error", (error: NodeJS.ErrnoException) => {
+  if (error.code === "EADDRINUSE") {
+    console.error(`A ${PORT}-es port foglalt. Állítsd le a korábban futó Linux ZH szervert, majd indítsd újra az npm run dev parancsot.`);
+  } else {
+    console.error(error);
+  }
+  process.exit(1);
+});
