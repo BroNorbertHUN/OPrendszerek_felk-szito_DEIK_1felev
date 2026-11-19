@@ -1,0 +1,4 @@
+Linux is flexible
+Use LINUX tools daily
+shell scripting
+LINUX kernel

@@ -1,0 +1,5 @@
+Konyv;3500
+Toll;450
+Fuzet;800
+Konyv;2900
+Toll;300

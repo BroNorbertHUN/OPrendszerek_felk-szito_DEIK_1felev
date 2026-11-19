@@ -1,0 +1,5 @@
+/var/log/syslog
+/home/student/app.log
+/tmp/app.log
+/var/log/kern.log
+/etc/hosts

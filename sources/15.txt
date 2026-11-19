@@ -1,0 +1,4 @@
+anna@example.com
+info@pelda.hu
+bela@example.org
+support@example.com

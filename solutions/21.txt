@@ -1,0 +1,3 @@
+app.log
+kern.log
+syslog

@@ -1,0 +1,5 @@
+alma;12
+körte;7
+alma;5
+szilva;9
+körte;3

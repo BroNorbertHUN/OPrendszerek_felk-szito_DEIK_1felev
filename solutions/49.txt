@@ -1,0 +1,4 @@
+Csilla;98
+Anna;90
+Dora;82
+Bela;75

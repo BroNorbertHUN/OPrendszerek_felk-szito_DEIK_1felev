@@ -1,0 +1,4 @@
+INFO 192.168.1.10 connected
+WARN 10.0.0.2 timeout
+INFO 192.168.1.10 disconnected
+INFO 172.16.0.5 connected

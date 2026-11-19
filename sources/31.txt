@@ -1,0 +1,4 @@
+shell scripts help
+The SHELL is ready
+fish and Shell
+bash is different

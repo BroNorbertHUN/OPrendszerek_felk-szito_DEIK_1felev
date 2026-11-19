@@ -1,0 +1,6 @@
+INFO started
+ERROR missing file
+WARN low disk
+ERROR timeout
+INFO retry
+ERROR denied

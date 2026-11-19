@@ -1,0 +1,5 @@
+WARN disk space low
+info started
+Warning: retrying
+WARN connection lost
+done

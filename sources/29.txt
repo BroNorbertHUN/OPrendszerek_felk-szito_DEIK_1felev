@@ -1,0 +1,5 @@
+GET /index.html 200
+POST /login 302
+GET /style.css 200
+DELETE /old 204
+PUT /profile 200

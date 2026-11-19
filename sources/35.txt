@@ -1,0 +1,4 @@
+user=anna action=login
+user=bela action=read
+user=anna action=logout
+user=csilla action=login

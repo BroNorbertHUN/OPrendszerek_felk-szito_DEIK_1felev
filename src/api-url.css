@@ -1,0 +1,5 @@
+.api-url-label{display:block;margin:0 0 7px;font-size:11px;font-weight:600;color:var(--text)}
+.api-url-label span,.api-url-field>span{display:block;margin-top:4px;font-weight:400;color:var(--muted);font-size:10px;line-height:1.5}
+.api-url-field{margin-bottom:12px}
+.api-url-field input{width:min(100%,440px);border:1px solid var(--line);border-radius:6px;padding:9px 11px;background:var(--bg);color:var(--text);font:11px 'DM Mono';outline:none}
+.api-url-field input:focus{border-color:var(--green)}

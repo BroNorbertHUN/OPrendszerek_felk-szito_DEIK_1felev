@@ -1,0 +1,3 @@
+Anna;4.5
+Béla;3.0
+Csilla;5.0
